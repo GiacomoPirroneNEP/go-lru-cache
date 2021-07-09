@@ -16,3 +16,9 @@ if err != nil {
   log.Println(err.Error)
 }
 ```
+
+### Add Element To LRU Cache
+```go
+// Adds element to LRU Cache with key "k" and value "v"
+newLruCache.SetElem("k", "v")
+```
